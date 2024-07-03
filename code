@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEasy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .header {
+            background-color: #1E90FF;
+            padding: 20px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header .logo {
+            font-size: 1.5em;
+        }
+        .header .nav {
+            display: flex;
+            gap: 20px;
+        }
+        .header .nav a {
+            color: white;
+            text-decoration: none;
+        }
+        .hero {
+            background-image: url('hero.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+        }
+        .hero button {
+            background-color: #FF4500;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            color: white;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .featured-products, .categories {
+            padding: 20px;
+            text-align: center;
+        }
+        .products, .categories-list {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .product, .category {
+            border: 1px solid #ddd;
+            padding: 10px;
+            width: 200px;
+            text-align: center;
+        }
+        .product img , .categories-list img{
+            height: 200px;
+        }
+        .footer {
+            background-color: #f5f5f5;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">ShopEasy</div>
+        <div class="nav">
+            <a href="#">Home</a>
+            <a href="#">Categories</a>
+            <a href="#">Deals</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Sign In</a>
+        </div>
+    </div>
+    <div class="hero">
+        <div>
+            <h1>Welcome to ShopEasy</h1>
+            <button>Shop Now</button>
+        </div>
+    </div>
+    <div class="featured-products">
+        <h2>Featured Products</h2>
+        <div class="products">
+            <div class="product">
+                <img src="https://img7.hkrtcdn.com/21263/prd_2126246_o.jpg" alt="Product 1">
+                <p>Product 1</p>
+                <p>$10.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://m.media-amazon.com/images/I/51FuB83g80L._AC_UY1100_.jpg" alt="Product 2">
+                <p>Product 2</p>
+                <p>$15.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://i.ebayimg.com/00/s/MTYwMFgxMjUy/z/aI0AAOSwvgFhXL4Q/$_1.JPG" alt="Product 3">
+                <p>Product 3</p>
+                <p>$20.00</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="categories">
+        <h2>Shop by Categories</h2>
+        <div class="categories-list">
+            <div class="category">
+                <img src="https://thumbs.dreamstime.com/b/consumer-electronics-stell-27049832.jpg" alt="Category 1">
+                <p>Electronics</p>
+            </div>
+            <div class="category">
+                <img src="https://previews.123rf.com/images/yupiramos/yupiramos1711/yupiramos171103788/89172612-female-fashion-clothes-icon-vector-illustration-design.jpg" alt="Category 2">
+                <p>Fashion</p>
+            </div>
+            <div class="category">
+                <img src="https://st.hzcdn.com/fimgs/pictures/living-rooms/modern-new-home-in-hampstead-lounge-black-and-milk-interior-design-london-img~2d716852082b6a6a_0078-1-05ac713-w200-h200-b0-p0.jpg" alt="Category 3">
+                <p>Home & Garden</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Contact us: contact@shopeasy.com | Follow us on social media | Subscribe to our newsletter</p>
+    </div>
+</body>
+</html>
